@@ -1,0 +1,15 @@
+{
+  "name": "eit-color-selector",
+  "version": "1.0.0",
+  "description": "Color selection form component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish"
+  },
+  "author": "Miguel Angel Alvarez",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
