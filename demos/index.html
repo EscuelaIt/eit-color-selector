@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Component con formAssociated</title>
+    <style>
+      form {
+        margin-bottom: 1.5rem;
+      }
+      .eit-color-selector-big {
+        --color-display-width: 30px;
+        --color-display-height: 30px;
+        --color-display-border: 3px dashed red;
+      }
+    </style>
+</head>
+<body>
+    <h2>Color selector demos</h2>
+
+    <eit-color-selector class="eit-color-selector-big" name="color1"></eit-color-selector>
+        
+    <eit-color-selector name="color1" colors='[
+        {"name": "Rosa", "value": "#ff66b2"},
+        {"name": "Turquesa", "value": "#40e0d0"},
+        {"name": "Naranja", "value": "#ffa500"}
+    ]'></eit-color-selector>
+
+    <eit-color-selector name="color2" colors='[
+        {"name": "Violeta", "value": "#8a2be2"},
+        {"name": "Gris", "value": "#808080"},
+        {"name": "Dorado", "value": "#ffd700"}
+    ]'></eit-color-selector>
+
+      
+    <script src="../eit-color-selector.js" type="module"></script>
+</body>
+</html>
