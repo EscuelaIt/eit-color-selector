@@ -71,7 +71,7 @@ To define a custom set of colors, use the `colors` attribute, passing a JSON str
 The component exposes CSS variables so you can easily adjust its appearance:
 
 ```css
-color-selector {
+eit-color-selector {
     --color-display-width: 30px;
     --color-display-height: 30px;
     --color-display-border: 3px dashed red;
